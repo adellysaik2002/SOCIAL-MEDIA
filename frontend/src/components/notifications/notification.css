@@ -1,0 +1,100 @@
+
+
+.friends{
+    height:calc(100vh - 62px);
+ 
+     display:flex;
+     background-color: #f0f2f5;
+ }
+ 
+ .left{
+     flex:2.5;
+     height:100%;
+
+
+    
+ }
+ .middle{
+     flex:7;
+     padding:20px;
+     height:100%;
+     overflow-y: scroll;
+ 
+ }
+ 
+ .right{
+     flex:2.5;
+     height:100%;
+     
+ }
+ 
+ .friendswrapper{
+     
+     background-color: white;
+     border-radius: 10px;
+    
+     -webkit-box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37); 
+ box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37);
+ 
+ }
+ 
+ .top{
+     padding:20px;
+     display:flex;
+ }
+ 
+ .searchbar{
+     
+     height:40px;
+     width:40%;
+     background-color:#f0f2f5 ;
+     border-radius: 20px;
+     display:flex;
+     align-items: center;
+     padding-left:10px;
+     
+     
+     
+     
+     
+ }
+ 
+ .inputclass{
+ 
+     border: none;
+     background-color:#f0f2f5  ;
+     width:90%;
+ 
+ }
+ .inputclass:focus{
+     outline:none;
+ }
+ 
+ .searchIcon{
+     font-size: 20px !important;
+ }
+ 
+ 
+ 
+ .topbutton{
+     
+     background-color: white !important;
+     color:#3588f4 !important;
+     font-weight: 10px !important;
+ }
+ 
+ .bottom{
+    
+     display:flex;
+     flex-wrap: wrap;
+     padding:10px;
+     justify-content: space-around;
+     min-height: 50%;
+    
+ 
+ }
+
+
+ h4{
+     color:#007bff;
+ }

@@ -1,0 +1,126 @@
+
+.allUsers{
+    height:calc(100vh - 62px);
+     width:100%;
+     display:flex;
+     background-color: #f0f2f5;
+    
+
+    
+ }
+
+ .allUsersHeading{
+     font-size: 3.75vh;    
+}
+ 
+ .allUsersLeft{
+     flex:2.5;
+     height:100%;
+    
+ }
+ .allUsersMiddle{
+     flex:7;
+     padding:2.5vh;
+     height:100%;
+     overflow-y: auto;
+     
+ 
+ }
+ 
+ .allUsersRight{
+     flex:2.5;
+     height:100%;
+ }
+ 
+ .allUsersWrapper{
+     
+     background-color: white;
+     border-radius: 1.25vh;
+    
+     -webkit-box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37); 
+ box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37);
+ 
+ }
+ 
+ .allUsersTop{
+     padding:2.5vh;
+     display:flex;
+ }
+ 
+ .allUsersSearchbar{
+     
+     height:5vh;
+     width:60%;
+     background-color:#f0f2f5 ;
+     border-radius: 2.5vh;
+     display:flex;
+     align-items: center;
+     padding-left:1.25vh;
+     
+     
+     
+     
+     
+ }
+ 
+ .allUsersInputclass{
+ 
+     border: none;
+     background-color:#f0f2f5  ;
+     width:90%;
+     font-size: 2.5vh;
+ 
+ }
+ .allUsersInputclass:focus{
+     outline:none;
+ }
+ 
+ .allUsersSearchIcon{
+     font-size: 2.5vh !important;
+ }
+ 
+ 
+ 
+ .topbutton{
+     
+     background-color: white !important;
+     color:#3588f4 !important;
+     font-weight: 1.25vh !important;
+ }
+ 
+ .bottom{
+    
+     display:flex;
+     flex-wrap: wrap;
+     padding:1.25vh;
+     justify-content: space-around;
+    
+ 
+ }
+
+ .searchHr{
+     margin:0px;
+ }
+
+ @media screen and (max-width: 1000px) {
+    .allUsersLeft{
+        display:none;
+        flex:0;
+    }
+    .allUsersRight{
+        display:none;
+        flex:0;
+    }
+
+    .allUsersSearchbar{
+        width:100%;
+    }
+
+    .allUsers{
+        height:calc(100vh - 97.2px);
+    }
+    
+
+    
+    
+  }

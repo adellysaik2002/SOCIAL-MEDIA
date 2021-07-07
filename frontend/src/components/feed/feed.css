@@ -1,0 +1,7 @@
+.feedContainer{
+ flex:6; 
+ height: calc(100vh - 62px);  
+ padding:1.25vh;
+ overflow-y: scroll;
+  
+}

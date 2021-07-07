@@ -1,0 +1,14 @@
+.sideBarContainer{
+    flex:3;
+   height: calc(100vh - 62px);  
+   
+    
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .sideBarContainer{
+       display:none;
+        
+    }
+}
